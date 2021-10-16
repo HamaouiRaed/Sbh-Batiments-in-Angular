@@ -25,22 +25,22 @@ a:hover {
     background-color: transparent;
 }
 
-fa-icon:hover {
+.footer_icon fa-icon:hover {
     background-color: #bc0e09;
     color: #fff;
 }
-fa-icon {
+.footer_icon fa-icon {
     width: 35px;
     height: 35px;
     border-radius: 50%;
     background: #363636;
     color: #fff;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     margin-left: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     transition: all ease 0.6s;
-    font-size: 25px;
+    font-size: 25 px;
 }
 .fab {
     font-family: "Font Awesome 5 Brands";
@@ -58,4 +58,7 @@ fa-icon {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+}
+* {
+    box-sizing: border-box;
 }
