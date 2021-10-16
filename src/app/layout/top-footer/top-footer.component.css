@@ -1,0 +1,13 @@
+.footer_top {
+    background-image: url(../../../assets/images/top-footer/banner10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.p_90-80 {
+    padding: 90px 0 80px 0;
+}
+.p{
+    color:#fff
+}
+ 
