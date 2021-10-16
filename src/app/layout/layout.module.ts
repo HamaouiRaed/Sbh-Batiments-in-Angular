@@ -6,7 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 import { TopFooterComponent } from './top-footer/top-footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faGoogle, faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import {faAngellist, faGoogle, faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 
 
 const COMPONENTS = [TopHeaderComponent, NavbarComponent, TopFooterComponent,FooterComponent];
@@ -26,6 +27,6 @@ const COMPONENTS = [TopHeaderComponent, NavbarComponent, TopFooterComponent,Foot
 export class LayoutModule {
   constructor(library: FaIconLibrary) {
     // Add multiple icons to the library
-    library.addIcons(faFacebookF, faInstagram,faLinkedinIn,faGoogle);
+    library.addIcons(faAngleDoubleRight, faFacebookF, faInstagram,faLinkedinIn,faGoogle);
   }
  }
