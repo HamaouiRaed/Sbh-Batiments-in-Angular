@@ -27,17 +27,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/css/style.css",
-              "src/assets/css/gallery.css",
-              "src/assets/css/media.css"
             ],
             "scripts": [
-              "src/assets/js/isotope.pkgd.min.js",
-              "src/assets/js/isotopehelper.js",
-              "src/assets/js/jquery-3.4.1.min.js",
-              "src/assets/js/jquery.min.js",
-              "src/assets/js/script.js"
             ]
           },
           "configurations": {
